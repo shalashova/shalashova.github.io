@@ -22,7 +22,7 @@ btn.addEventListener('click', function(){
  again.addEventListener('click', function(){
    num=Math.random()*100
   num = Math.round(num)
-  input.value = "0"
-  text.textContent = '' 
+  input.value = ""
+  text.textContent =""
   console.log(num)
  })
