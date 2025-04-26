@@ -52,3 +52,14 @@ btn5.addEventListener('click', function(){
 text5.addEventListener('click', function(){
     problem5.classList.add('open')
 })
+
+let input6 = document.querySelector('#input6')
+let btn6 = document.querySelector('#btn6')
+let text6=document.querySelector('#text6')
+let problem6 = document.querySelector('.problem6')
+btn6.addEventListener('click', function(){
+    alert(input6.value)
+})
+text6.addEventListener('click', function(){
+    problem6.classList.add('open')
+})
