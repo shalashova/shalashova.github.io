@@ -23,5 +23,6 @@ btn.addEventListener('click', function(){
    num=Math.random()*100
   num = Math.round(num)
   input.value = "0"
+  text.textContent = '' 
   console.log(num)
  })
