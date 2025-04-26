@@ -41,3 +41,7 @@ a{
     display: block;
     margin-bottom: 1.2rem;
 }
+input{
+    padding: 10px 20px;
+    width: 350px;
+}
